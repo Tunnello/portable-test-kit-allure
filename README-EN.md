@@ -21,10 +21,13 @@ The package includes WinPython, locked pytest dependencies, Allure CLI 2.46.1, a
 
 ## Run the Example
 
+Download: [Windows x64 portable package v1.0.0](https://github.com/Tunnello/portable-test-kit-allure/releases/download/v1.0.0/portable-test-kit-allure-windows-x64.zip)
+
 Just double-click `run-tests.cmd`; the report will open automatically.
-![example](assets/example.png)
 
 Demo video: [portable-test-kit-allure walkthrough](assets/portable-test-kit-allure_demo_video.mp4)
+
+![example](assets/example.png)
 
 ## Workflow
 

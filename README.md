@@ -20,10 +20,14 @@
 | 示例测试 | `test_public_examples.py`：ping 百度、ping Google（3 秒超时）、列出 `C:\` 根目录 |
 
 ## 运行示例
+
+下载：[Windows x64 便携包 v1.0.0](https://github.com/Tunnello/portable-test-kit-allure/releases/download/v1.0.0/portable-test-kit-allure-windows-x64.zip)
+
 只需要双击运行 run-tests.cmd 即可，报告会自动打开
-![example](assets/example.png)
 
 演示视频：[portable-test-kit-allure 操作演示视频](assets/portable-test-kit-allure_demo_video.mp4)
+
+![example](assets/example.png)
 
 ## 操作流程
 
