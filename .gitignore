@@ -1,11 +1,12 @@
 # Local documentation
 
-# Build output
-dist/
+# Build archives (upload via GitHub Releases)
+dist/*.zip
 
 # Python caches
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
 .pytest_cache/
 
 # Generated test and report output

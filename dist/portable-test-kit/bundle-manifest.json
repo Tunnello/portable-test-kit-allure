@@ -1,0 +1,33 @@
+﻿{
+    "schema_version":  1,
+    "target":  {
+                   "os":  "windows",
+                   "architecture":  "x64"
+               },
+    "runtime":  {
+                    "distribution":  "WinPython",
+                    "release":  "2026-04",
+                    "python_version":  "3.13.18",
+                    "archive_name":  "WinPython64-3.13.18.0dot.zip",
+                    "archive_url":  "https://github.com/winpython/winpython/releases/download/2026-04/WinPython64-3.13.18.0dot.zip",
+                    "archive_sha256":  "50c4f17809457e411c2db30959c8fb25a958ff3a6f624080044992809509bc37",
+                    "package_python_path":  "python/python.exe"
+                },
+    "dependencies":  {
+                         "requirements_lock":  "requirements.lock",
+                         "requirements_lock_sha256":  "a3d4f2724ef6541976b95694d109e0d6cbb71e666875b220d4ef858fda98f226",
+                         "requirements":  [
+                                              "colorama==0.4.6",
+                                              "iniconfig==2.3.1",
+                                              "packaging==26.3",
+                                              "pluggy==1.7.0",
+                                              "pytest==8.3.2"
+                                          ]
+                     },
+    "external_prerequisites":  [
+                                   "Windows x64 with ping.exe",
+                                   "Read access to the C:\\ root directory",
+                                   "Outbound ICMP access for ping tests"
+                               ],
+    "built_utc":  "2026-10-28T09:59:48.3456407Z"
+}

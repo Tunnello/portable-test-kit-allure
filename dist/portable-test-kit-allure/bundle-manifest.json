@@ -1,0 +1,58 @@
+﻿{
+    "schema_version":  1,
+    "target":  {
+                   "os":  "windows",
+                   "architecture":  "x64"
+               },
+    "runtime":  {
+                    "distribution":  "WinPython",
+                    "release":  "2026-04",
+                    "python_version":  "3.13.18",
+                    "archive_name":  "WinPython64-3.13.18.0dot.zip",
+                    "archive_url":  "https://github.com/winpython/winpython/releases/download/2026-04/WinPython64-3.13.18.0dot.zip",
+                    "archive_sha256":  "50c4f17809457e411c2db30959c8fb25a958ff3a6f624080044992809509bc37",
+                    "package_python_path":  "python/python.exe"
+                },
+    "allure":  {
+                   "version":  "2.46.1",
+                   "archive_name":  "allure-2.46.1.zip",
+                   "archive_url":  "https://github.com/allure-framework/allure2/releases/download/2.46.1/allure-2.46.1.zip",
+                   "archive_sha256":  "d25c519bbde940dc953cff8901130ce18b73013dc19a8f8b90b8b4b1c5eb252f",
+                   "package_path":  "allure",
+                   "executable_path":  "allure/bin/allure.bat",
+                   "license":  "Apache-2.0",
+                   "license_url":  "https://github.com/allure-framework/allure2/blob/2.46.1/LICENSE"
+               },
+    "java_runtime":  {
+                         "distribution":  "Eclipse Temurin",
+                         "version":  "21.0.12.1+1",
+                         "archive_name":  "OpenJDK21U-jre_x64_windows_hotspot_21.0.12.1_1.zip",
+                         "archive_url":  "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jre_x64_windows_hotspot_21.0.12.1_1.zip",
+                         "archive_sha256":  "d35f31e712f0fcf6ac5a093edc90204fbff22f720ba3950bd09d331d5e621636",
+                         "package_path":  "java",
+                         "executable_path":  "java/bin/java.exe",
+                         "license":  "GPL-2.0-with-classpath-exception",
+                         "license_url":  "https://github.com/adoptium/temurin21-binaries/blob/jdk-21.0.12.1%2B1/LICENSE"
+                     },
+    "dependencies":  {
+                         "requirements_lock":  "requirements.lock",
+                         "requirements_lock_sha256":  "114cd10944b3ee66adf47ee49ff7fadc1368546b07cdafda74cb3290bbb4cec7",
+                         "requirements":  [
+                                              "allure-pytest==2.16.2",
+                                              "allure-python-commons==2.16.2",
+                                              "attrs==26.1.0",
+                                              "colorama==0.4.6",
+                                              "iniconfig==2.3.1",
+                                              "packaging==26.3",
+                                              "pluggy==1.7.0",
+                                              "pytest==8.3.2"
+                                          ]
+                     },
+    "external_prerequisites":  [
+                                   "Windows x64 with ping.exe",
+                                   "Read access to the C:\\ root directory",
+                                   "Outbound ICMP access for ping tests",
+                                   "Default system browser for Allure reports"
+                               ],
+    "built_utc":  "2026-10-29T03:29:20.5813908Z"
+}
