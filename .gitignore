@@ -1,0 +1,14 @@
+# Local documentation
+
+# Build output
+dist/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated test and report output
+allure-results/
+allure-report/
+logs/
