@@ -6,8 +6,11 @@
 # Portable Python, pytest, and Allure Test Environment
 
 This project builds a portable Windows x64 test package.
-The package includes WinPython, locked pytest dependencies, Allure CLI 2.46.1, and Eclipse Temurin JRE 21.0.12.1+1.
+
 Simply copy the folder to run it; Python, Java, and Allure do not need to be installed separately.
+It is convenient for offline and quick validation.
+
+The package includes WinPython, locked pytest dependencies, Allure CLI 2.46.1, and Eclipse Temurin JRE 21.0.12.1+1.
 
 | Item | Description |
 | --- | --- |

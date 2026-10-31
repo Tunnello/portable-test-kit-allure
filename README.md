@@ -6,8 +6,10 @@
 # 便携式 Python+Pytest+Allure 测试环境
 
 本项目用于构建 Windows x64 便携测试包。
+
 运行时只需复制本文件夹，无需安装python, jre, allure 等。
 方便离线和快速验证。
+
 交付包内含 WinPython、锁定的 pytest 依赖、Allure CLI 2.46.1 和 Eclipse Temurin JRE 21.0.12.1+1。
 
 | 项目 | 说明 |
