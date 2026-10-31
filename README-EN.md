@@ -25,7 +25,9 @@ Download: [Windows x64 portable package v1.0.0](https://github.com/Tunnello/port
 
 Just double-click `run-tests.cmd`; the report will open automatically.
 
-Demo video: [portable-test-kit-allure walkthrough](assets/portable-test-kit-allure_demo_video.mp4)
+Demo video:
+
+https://github.com/user-attachments/assets/afe50671-8097-4ffd-a293-e9929e632b98
 
 ![example](assets/example.png)
 

@@ -25,7 +25,9 @@
 
 只需要双击运行 run-tests.cmd 即可，报告会自动打开
 
-演示视频：[portable-test-kit-allure 操作演示视频](assets/portable-test-kit-allure_demo_video.mp4)
+演示视频：
+
+https://github.com/user-attachments/assets/afe50671-8097-4ffd-a293-e9929e632b98
 
 ![example](assets/example.png)
 
